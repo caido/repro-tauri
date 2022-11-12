@@ -1,0 +1,12 @@
+{
+  "name": "tauri-repro",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "cpy src/* dist/ && http-server dist/ -p 3000",
+    "build": "cpy src/* dist/"
+  },
+  "devDependencies": {
+    "http-server": "14.1.1",
+    "cpy-cli": "4.2.0"
+  }
+}
